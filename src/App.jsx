@@ -17,7 +17,7 @@ function App() {
 		},
 		{
 			name: "Computer",
-			price: "20000",
+			price: "20,000",
 			imageUrl:
 				"https://i.pinimg.com/236x/a5/ca/c3/a5cac31b79975acb8e6b100412262b23.jpg",
 		},
