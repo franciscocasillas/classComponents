@@ -24,7 +24,7 @@ class ProductCard extends React.Component {
 		const imageUrl = this.props.imageUrl;
 
 		return (
-			<div>
+			<div className="productCard">
 				<img src={imageUrl} alt={name} />
 				<h3>{name}</h3>
 				<p>${price}.00</p>

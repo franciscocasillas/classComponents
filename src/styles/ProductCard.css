@@ -1,1 +1,21 @@
+.productCard {
+	display: flex;
+	flex-direction: column;
+	border: 1px black solid;
+	margin: 15px;
+}
 
+img {
+	max-width: 300px;
+	margin: 0;
+	margin-bottom: 12px;
+}
+
+h3,
+p {
+	margin: 0;
+}
+
+p {
+	margin-bottom: 15px;
+}
