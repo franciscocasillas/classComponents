@@ -13,7 +13,7 @@ class ProductCard extends React.Component {
 
 	static defaultProps = {
 		name: "Bathroom",
-		price: 100.0,
+		price: 100,
 		imageUrl:
 			"https://i.pinimg.com/564x/5e/73/82/5e7382c5b9859040e2641fdb9f3f11ce.jpg",
 	};
@@ -27,7 +27,7 @@ class ProductCard extends React.Component {
 			<div className="productCard">
 				<img src={imageUrl} alt={name} />
 				<h3>{name}</h3>
-				<p>${price}.00</p>
+				<p>${price.toFixed(2)}</p>
 			</div>
 		);
 	}
