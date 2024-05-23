@@ -1,3 +1,4 @@
+import React from "react";
 import "../styles/ProductCard.css";
 import PropTypes from "prop-types";
 
@@ -11,9 +12,10 @@ class ProductCard extends React.Component {
 	};
 
 	static defaultProps = {
-		name: "Product Name",
-		price: 0.0,
-		imageUrl: "https://via.placeholder.com/150",
+		name: "Bathroom",
+		price: 100.0,
+		imageUrl:
+			"https://i.pinimg.com/564x/5e/73/82/5e7382c5b9859040e2641fdb9f3f11ce.jpg",
 	};
 
 	render() {
@@ -25,7 +27,7 @@ class ProductCard extends React.Component {
 			<div>
 				<img src={imageUrl} alt={name} />
 				<h3>{name}</h3>
-				<p>{price}</p>
+				<p>${price}.00</p>
 			</div>
 		);
 	}
